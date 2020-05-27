@@ -1,4 +1,3 @@
-# ft_django_rest
 # Getting Started
 
 
@@ -15,9 +14,10 @@ $ git clone git@github.com:GouravSardana/ft_django_rest.git
 asgiref==3.2.7
 Django==3.0.6
 djangorestframework==3.11.0
-pkg-resources==0.0.0
+gunicorn==20.0.4
 pytz==2020.1
 sqlparse==0.3.1
+dj-static
 
 ```
 
@@ -26,15 +26,12 @@ sqlparse==0.3.1
 ## Installing and Running the project
 
 ```
-$ cd Medical
+$ cd ft_django_rest
 ```
 ```
 $ pip install -r requirement.txt
 ```
 
-```
-$ python manage.py makemigrations
-```
 >if any prompt choose option 1
 ```
 $ python manage.py migrate
@@ -54,30 +51,21 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-Redirect at the link shown.
+### API End Points
 
-> use ctrl+c to stop the server and execute other command whenever needed.
-
-## populating the data
-Populate the data using admin panel
-
-### creating superuser(admin)
+List all the users with their respective activity period.
 ```
-$ python manage.py createsuperuser
+https://ftlab-assessment.herokuapp.com/users
 ```
-> Fill the data asked in prompt
+![OnPaste 20200527-154535](https://user-images.githubusercontent.com/31731827/83007461-59e14a80-a031-11ea-8ffa-3aeb66270ef1.png)
 
+You can add more users and set their activities period by logging with admin.
 
-> run the server again
+username - gourav
+
+password - 1234
+
 ```
-$ python manage.py runserver
+https://ftlab-assessment.herokuapp.com/admin/
 ```
-> redirect to http://127.0.0.1:8000/admin.
 
-> Login using the Email and Password you provided during creation of super user.
-
-
-> populate some data of custom tags, Projects, softwares, activities.
-
-
-> other data can be populated using the main app itself.
