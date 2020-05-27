@@ -25,7 +25,9 @@ SECRET_KEY = 'lxc@fr1u(4z+-)h8ijx!x-3bw2-6#*prcfmcnx*y01%((4l643'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'ftlab-assessment.herokuapp.com',
+]
 
 
 # Application definition
