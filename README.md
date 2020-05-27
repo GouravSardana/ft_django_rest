@@ -3,7 +3,7 @@
 
 Clone the project in your local computer
 ```
-$ git clone git@github.com:GouravSardana/ft_django_rest.git
+$ git clone https://github.com/GouravSardana/ft_django_rest.git
 ```
 
 ## Prerequisites
