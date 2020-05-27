@@ -58,7 +58,8 @@ List all the users with their respective activity period.
 https://ftlab-assessment.herokuapp.com/users
 ```
 
-![OnPaste 20200527-161831](https://user-images.githubusercontent.com/31731827/83010328-b8a8c300-a035-11ea-8a5b-cba5a04fde9f.png)
+![OnPaste 20200527-162237](https://user-images.githubusercontent.com/31731827/83010697-4a183500-a036-11ea-979c-56ae20dad558.png)
+
 
 You can add more users and set their activities period by logging with admin.
 
