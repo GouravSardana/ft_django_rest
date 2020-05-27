@@ -31,12 +31,12 @@ $ cd ft_django_rest
 ```
 $ pip install -r requirement.txt
 ```
+After installing all the requirement. Run the following command.
 
->if any prompt choose option 1
 ```
 $ python manage.py migrate
 ```
-> ignore some errors
+
 ```
 $ python manage.py runserver
 ```
