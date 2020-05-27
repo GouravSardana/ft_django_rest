@@ -1,7 +1,7 @@
 # Getting Started
 
 
-* clone the project in your local computer
+Clone the project in your local computer
 ```
 $ git clone git@github.com:GouravSardana/ft_django_rest.git
 ```
